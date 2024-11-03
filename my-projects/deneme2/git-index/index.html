@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Ekleme</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="icon" href="../image/esegicon.png">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navlogo"><a href="../index.html"><img src="../image/esegicon.png" alt="eseg"></a></div>
+        <ul class="navlinks">
+            <li class=""><a href="../index.html">Ana Sayfa</a></li>
+            <li class=""><a href="">Css</a></li>
+            <li><a href="">Js</a></li>
+            <li><a href="https://github.com/upharsin-nj">Github Sayfam</a></li>
+            <li><a href="https://github.com/upharsin-nj/my-project/tree/1743c7d40c8eb460601cded5dd6a806502f0bdb7/my-projects">Denemelerin repositories'i</a></li>
+            <li><a href="index.html" style=" color: #00bcd4;">Git Ekleme Güncelleme</a></li>
+        </ul>
+    </nav>
+
+        <ul class="paragraf-gitek">
+            <li class="ilkli">Önce github hesabından "repositories" oluşturuyoruz.</li>
+                <li> Bash terminali ile projenin olduğu klasöre giriş 
+                yapıyoruz. <i>cd /proje/dizin/yolu</i></li>
+                    <li>Bir depo başlatıyoruz. <i>git init</i></li>
+                        <li>Tüm dosyaları içine alıyoruz. <i>git add .</i></li>
+                            <li>İlk commit yani yükleme işlemini yapıyoruz. <i>git commit -m "İlk commit"</i></li>
+                                <li>Oluşturduğumuz Github deposunu ekliyoruz
+                                    <i>git remote add origin https://github.com/kullanici_adi/my-project.git
+                                    </i>
+                                </li>
+                            <li>Değişiklikleri githuba gönderiyoruz. <i>git push -u origin master</i></li>
+                            
+                        <li>Değişiklikleri 3 satırda tek seferde güncellemek için.
+                    
+                    <pre class="abo">
+                    git add .
+                    git commit -m "Değişiklik açıklaması"
+                    git push
+                    </pre>
+                     
+                  </li>
+                
+                
+            
+            </ul>
+
+
+
+
+</body>
+</html>

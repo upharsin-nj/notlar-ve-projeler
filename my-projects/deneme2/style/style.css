@@ -4,5 +4,107 @@ body {
 
 .navbar {
     background-color: black;
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
 }
+
+.navlogo img {
+    height: 30%;
+    width: 30%;
+}
+
+
+.navlinks {
+    list-style: none;
+    display: flex;
+}
+
+.navlinks li {
+    margin-left: 20px;
+}
+
+.navlinks a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.navlinks a:hover {
+    color: #00bcd4;
+}
+
+.paragraf-gitek {
+    color: rgb(174, 174, 174);
+    display: block;
+  list-style-type: decimal-leading-zero;
+  list-style-position: inherit;
+  margin-top: 1em;
+  margin-bottom: 1 em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 55px;
+  font-size: 150%;
+}
+
+.paragraf-gitek li {
+    margin: 3%;
+}
+
+i {
+    color: white;
+    background-color: rgba(66, 66, 66, 0.429);
+    padding: 1%;
+}
+
+.abo {
+    color: white;
+    background-color: rgba(66, 66, 66, 0.429);
+    padding: 1%;
+    margin: 1%;
+    height: 1%;
+    width: 1;
+}
+
+.tumbaslik {
+    padding-left: 10%;
+    color: white;
+
+}
+
+.paragraf-ana {
+    color: rgb(166, 166, 166);
+    display: block;
+  list-style-type: decimal-leading-zero;
+  list-style-position: inherit;
+  margin-top: 1em;
+  margin-bottom: 1 em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 55px;
+  font-size: 130%;
+  margin-top: 5%;
+}
+
+.paragraf-ana li {
+    margin: 2%;
+}
+
+.paragraf-ana h2 {
+    color: rgb(207, 207, 207);
+}
+
+b {
+    color: white;
+    background-color: grey;
+    padding: 0.5%;
+}
+
+strong {
+    color: rgb(226, 226, 226);
+    text-decoration: underline;
+}
+
+
