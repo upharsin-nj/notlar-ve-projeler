@@ -11,7 +11,7 @@
     <nav class="navbar">
         <div class="navlogo"><a href="index.html"><img src="image/esegicon.png" alt="eseg"></a></div>
         <ul class="navlinks">
-            <li class=""><a style="color: #00bcd4;" href="index.html">Ana Sayfa</a></li>
+            <li class=""><a style="color: blueviolet;" href="index.html">Ana Sayfa</a></li>
             <li class=""><a href="">Css</a></li>
             <li><a href="">Js</a></li>
             <li><a href="https://github.com/upharsin-nj">Github Sayfam</a></li>
@@ -41,9 +41,96 @@
                     <li><b><<b>pre</b>></b>: Önceden biçimlendirilmiş metin içerir.</li>
                         <li><b><<b>blockquote</b>></b>: Alıntı metni tanımlar. Nitelikleri <strong>cite</strong>.</li>
                             <li><b><<b>q</b>></b>: Kısa bir alıntı belirler. Nitelikleri <strong>cite</strong>.</li>
+                                <li><b><<b>cite</b>></b>: Bir eserin kaynağını belirtir. <strong>lang, dir</strong>.</li>
+                                    <li><b><<b>b</b>></b>: Kalın metin oluşturur.</li>
+                                <li><b><<b>i</b>></b>: İtalik metin oluşturur.</li>
+                            <li><b><<b>u</b>></b>: Altı çizili metin oluşturur.</li>
+                        <li><b><<b>strong</b>></b>: Vurgulanmış (genellikle kalın) metin oluşturur.</li>
+                    <li><b><<b>em</b>></b>: Vurgu (genellikle italik) metin.</li>
+                <li><b><<b>mark</b>></b>: Vurgulanmış metin.</li>
+            <li><b><<b>small</b>></b>: Küçük metin.</li>
+        <li><b><<b>del</b>></b>: Üstü çizili metin.</li>
+    <li><b><<b>ins</b>></b>: Altı çizili (eklenmiş) metin.</li>
+<li><b><<b>sub</b>></b>: Alt simge metni.</li>
+<li><b><<b>sup</b>></b>: Üst simge metni.</li>
+</ul>
 
+<ul class="paragraf-ana">
+    <h2>Bağlantı ve Navigasyon</h2>
+    <li><b><<b>a</b>></b>: Bağlantı oluşturur. Nitelikleri <strong>href, target, rel, download, type, hreflang</strong>'dir. Baya varmış la.</li>
+    <li><b><<b>nav</b>></b>: Gezinti bağlantıları için bir bölüm oluşturur. Anlaşılırlık için önemli.</li>
+</ul>
 
+<ul class="paragraf-ana">
+    <h2>Listeler</h2>
+        <li><b><<b>ul</b>></b>: Sırasız liste. Html5'de önerilmez html sürümünde kullanılır genel olarak. Nitelikler <strong>type</strong>.</li>
+            <li><b><<b>ol</b>></b>: Sıralı liste. Nitelikler <strong>reversed, start, type</strong>.</li>
+                <li><b><<b>li</b>></b>: Liste öğesi. Nitelikler <strong>value</strong> sadece numaralı listeler için.</li>
+            <li><b><<b>dl</b>></b>: Tanım listesi.</li>
+        <li><b><<b>dt</b>></b>: Bir terimi temsil eder.</li>
+    <li><b><<b>dd</b>></b>: Bu terimin açıklamasını içerir.</li>
+</ul>
+
+<ul class="paragraf-ana">
+    <h2>Gömülü İçerik</h2>
+        <li><b><<b>img</b>></b>: Görsel ekler. Nitelikleri 
+        <strong>src, alt, width, heigth, title, loading, decoding, usemap, ismap, longdesc, fetchpriority</strong>.</li>
+            <li><b><<b>audio</b>></b>: Ses ekler. Nitelikleri 
+            <strong>src, controls, autoplay, loop, muted, preload</strong>.</li>
+                <li><b><<b>video</b>></b>: Video ekler. Nitelikleri 
+                <strong>src, controls, autoplay, loop, muted, preload, width, height, poster, playsinline</strong>.</li>
+                    <li><b><<b>source</b>></b>: Ses veya video kaynağını belirler. Nitelikleri 
+                    <strong>src, type, media</strong>.</li>
+                <li><b><<b>iframe</b>></b>: Bir başka html belgesini gömülü olarak ekler. Nitelikleri 
+                <strong>src, srcdoc, name, width, height, frameborder, allow, allowfullscreen, loading</strong>.</li>
+            <li><b><<b>embed</b>></b>: Dışa gömülü içerik. Yani video, ses, pdf, oyunlar ve uygulamalar. Nitelikleri 
+            <strong>src, type, width, height, autoplay, loop, muted, name, title, allowscriptaccess, allowfullscreen</strong>.</li>
+        <li><b><<b>object</b>></b>: Gömülü bir nesne belirtir. Eskidir kendisi. Nitelikler 
+        <strong>data, type, width, height, name, class, id, style, title, lang, dir, usemap, form, align, archive, code, codebase, 
+        hspace, vspace, standby, classid, clsid, allowscriptaccess, allowfullscreen</strong>.</li>
+    <li><b><<b>param</b>></b>: Gömülü nesneler için parametreler tanımlar. Bu da az kullanılıyor yine de Nitelikleri 
+    <strong>name, value</strong>.</li>
+</ul>
+
+<ul class="paragraf-ana">
+    <h2>Tablo etiketleri</h2>
+        <li><b><<b>table</b>></b>: Tablo tanımlar. Nitelikleri 
+        <strong>border, cellspacing, cellpadding, width, height, align, valign, class, id, style, title, lang, dir, summary</strong>.</li>
+            <li><b><<b>tr</b>></b>: Tablo satırı.</li>
+                <li><b><<b>tr</b>></b>: Tablo hücresi.</li>
+                    <li><b><<b>th</b>></b>: Tablo başlığı hücresi.</li>
+                <li><b><<b>thead</b>></b>: Tablo başlık grubu.</li>
+            <li><b><<b>tbody</b>></b>: Tablo gövde grubu.</li>
+        <li><b><<b>tfoot</b>></b>: Tablo alt bilgi grubu.</li>
+    <li><b><<b>caption</b>></b>: Tablo başlığı.</li>
+</ul>
+
+<ul class="paragraf-ana">
+    <h2>Form ve Giriş</h2>
+        <li><b><<b>form</b>></b>: Bir form oluşturur. Nitelikleri 
+        <strong>action, method, enctype, name, target, autocomplete, novalidate, accept-charset</strong>.</li>
+            <li><b><<b>input</b>></b>: Kullanıcıdan veri almak için giriş alanı. Nitelikleri
+            <strong>type, name, value, placeholder, checked, disabled, readonly, maxlength, min, max, step, autocomplete, required, pattern, size</strong>.</li>
+                <li><b><<b>textarea</b>></b>: Çok satırlı metin giriş alanı. Nitelikleri 
+                <strong>name, rows, cols, placeholder, readonly, disabled, maxlength, minlength, required</strong>.</li>
+                    <li><b><<b>button</b>></b>: Tıklanabilir bir buton oluşturur. Nitelikleri 
+                    <strong>type, name, value, disabled, autofocus, form, formaction, formenctype, formmethod, formnovalidate, formtarget</strong>.</li>
+                        <li><b><<b>select</b>></b>: Açılır liste oluşturur. Nitelikleri 
+                        <strong>name, multiple, size, disabled, autofocus, required</strong>.</li>
+                    <li><b><<b>option</b>></b>: Açılır liste öğesi. Nitelikleri 
+                    <strong>value, label, selected, disabled</strong>.</li>
+                <li><b><<b>label</b>></b>: Giriş öğesi için etiket. Nitelikler
+                <strong>for, form</strong>.</li>
+            <li><b><<b>fieldset</b>></b>: Bir form grubu oluşuturur. Nitelikler 
+            <strong>disabled, form, name</strong>.</li>
+        <li><b><<b>legend</b>></b>: Fieldset için başlık.</li>
     </ul>
+
+<ul class="paragraf-ana">
+    <h2>Semantik ve Yapısal Etikletler</h2>
+        <p class="renkli-yazi">Ben bunları div gibi görüyorum sadece konumu belli oluyor daha anlaşılır oluyor html içinde.</p>
+        <li><b><<b>header</b>></b>: Bir bölüm veya sayfanın başlığı.</li>
+</ul>
     
     
 </body>

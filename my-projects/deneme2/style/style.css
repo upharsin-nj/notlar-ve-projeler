@@ -1,5 +1,10 @@
+* {
+    transition: 300ms;
+}
+
 body {
     background-color: rgb(37, 37, 37);
+    margin-bottom: 10%;
 }
 
 .navbar {
@@ -33,7 +38,7 @@ body {
 }
 
 .navlinks a:hover {
-    color: #00bcd4;
+    color: blueviolet;
 }
 
 .paragraf-gitek {
@@ -59,13 +64,17 @@ i {
     padding: 1%;
 }
 
+i:hover {
+    color: blueviolet;
+    background-color: white;
+}
+
 .abo {
     color: white;
     background-color: rgba(66, 66, 66, 0.429);
     padding: 1%;
     margin: 1%;
     height: 1%;
-    width: 1;
 }
 
 .tumbaslik {
@@ -98,8 +107,13 @@ i {
 
 b {
     color: white;
+    transition: 300ms;
     background-color: grey;
     padding: 0.5%;
+}
+
+b:hover {
+    background-color: blueviolet;
 }
 
 strong {
@@ -107,4 +121,23 @@ strong {
     text-decoration: underline;
 }
 
+strong:hover {
+    color: blueviolet;
+}
+
+li {
+    line-height: 150%;
+}
+
+@keyframes renkdegistir {
+    0% { color: white; }
+    25% { color: blueviolet; }
+    50% { color: white; }
+    75% { color: blueviolet; }
+    100% { color: white; }   
+}
+
+.renkli-yazi {
+    animation: renkdegistir 3s infinite;
+}
 
