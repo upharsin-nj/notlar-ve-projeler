@@ -130,14 +130,20 @@ li {
 }
 
 @keyframes renkdegistir {
-    0% { color: white; }
-    25% { color: blueviolet; }
-    50% { color: white; }
-    75% { color: blueviolet; }
-    100% { color: white; }   
+    0% { color: grey; }
+    25% { color: grey; }
+    50% { color: blueviolet; }
+    55% { color: rgba(137, 43, 226, 0.373);}
+    60% {color: blueviolet;}
+    75% { color: grey; }
+    100% { color: grey; }   
 }
 
 .renkli-yazi {
-    animation: renkdegistir 3s infinite;
+    animation: renkdegistir 2s infinite;
+}
+
+.renkli-yazi:hover {
+    animation: renkdegistir 200ms infinite;
 }
 

@@ -11,7 +11,7 @@
     <nav class="navbar">
         <div class="navlogo"><a href="index.html"><img src="image/esegicon.png" alt="eseg"></a></div>
         <ul class="navlinks">
-            <li class=""><a style="color: blueviolet;" href="index.html">Ana Sayfa</a></li>
+            <li class=""><a style="color: blueviolet;" href="index.html">Ana Sayfa ( Html )</a></li>
             <li class=""><a href="">Css</a></li>
             <li><a href="">Js</a></li>
             <li><a href="https://github.com/upharsin-nj">Github Sayfam</a></li>
@@ -130,6 +130,76 @@
     <h2>Semantik ve Yapısal Etikletler</h2>
         <p class="renkli-yazi">Ben bunları div gibi görüyorum sadece konumu belli oluyor daha anlaşılır oluyor html içinde.</p>
         <li><b><<b>header</b>></b>: Bir bölüm veya sayfanın başlığı.</li>
+            <li><b><<b>footer</b>></b>: Bir bölüm veya sayfanın alt bilgisi.</li>
+                <li><b><<b>section</b>></b>: Genel bir içerik bölümü.</li>
+                    <li><b><<b>article</b>></b>: Bağımsız bir içerik parçası.</li>
+                <li><b><<b>aside</b>></b>: Ana içeriğe ek bilgiler.</li>
+            <li><b><<b>main</b>></b>: Sayfanın ana içeriği.</li>
+        <li><b><<b>div</b>></b>: Genel bir konteyner öğesi.</li>
+    <li><b><<b>span</b>></b>: Satır içi konteyner.</li>
+</ul>
+
+<ul class="paragraf-ana">
+    <h2>Multimedya ve Grafik</h2>
+        <li><b><<b>canvas</b>></b>: Grafik çizmek için bir tuval. Nitelikleri <strong>width, height</strong>.</li>
+    <li><b><<b>svg</b>></b>: Ölçeklenebilir vektör grafikleri tanımlar. Nitelikleri <strong>width, height, viewBox, preserveAspectRatio</strong>.</li>
+</ul>
+
+<ul class="paragraf-ana">
+    <h2>Script ve Bağlantı</h2>
+        <li><b><<b>script</b>></b>: Javascript kodlarını ekler. Nitelikleri 
+        <strong>src, type, async, defer, charset, crossorigin</strong>.</li>
+            <li><b><<b>noscript</b>></b>: Javascript desteklenmediğinde gösterilecek içerik.</li>
+        <li><b><<b>link</b>></b>: Harici stil veya dosya bağlantısı. Nitelikleri 
+        <strong>href, rel, type, media, sizes, crossorigin, disabled</strong></li>
+    <li><b><<b>meta</b>></b>: Meta verileri tanımlar. Nitelikleri
+    <strong>name, content, http-equiv, charset, scheme</strong>.</li>
+</ul>
+
+<ul class="paragraf-ana">
+    <h2>Diğer Etiketler</h2>
+    <li><b><<b>details</b>></b>: Açılabilir bir detay öğesi. Nitelikler 
+    <strong>open</strong>.</li>
+        <li><b><<b>summary</b>></b>: <i>details</i> öğesinin özet başlığı.</li>
+            <li><b><<b>dialog</b>></b>: Diyalog kutusu. Nitelikleri <strong>open, modal</strong>.</li>
+        <li><b><<b>progress</b>></b>: Bir işlemin ilerleme durumu. Nitelikleri <strong>value, max</strong>.</li>   
+    <li><b><<b>meter</b>></b>: Önceden belirlenmiş bir ölçekte bir değer. Nitelikleri <strong>value, min, max, low, high, optimum</strong>.</li>
+<li><b><<b>time</b>></b>: Tarih veya saat tanımlayan etiket. Nitelikleri <strong>datetime</strong>.</li>     
+</ul>
+
+<ul class="paragraf-ana">
+    <h2>Ek etiketler (Daha Az Kullanılanlar)</h2>
+    <li><b><<b>abbr</b>></b>: Kısaltma veya akronim belirtir (fare ile üzerine gelindiğinde açılımı görüntülenebilir).
+    </li>
+    <li><b><<b>bdi</b>></b>: Metin yönünün izolasyonunu sağlar (dil değişikliği gibi durumlarda kullanılır).
+    </li>
+    <li><b><<b>bdo</b>></b>: Metnin yönünü açıkça belirtir (örneğin, sağdan sola veya soldan sağa).
+    </li>
+    <li><b><<b>data</b>></b>: İçeriği makine tarafından okunabilir bir değerle ilişkilendirir.
+    </li>
+    <li><b><<b>datalist</b>></b>: Giriş alanları için seçenekler listesi sağlar (genellikle <i>input</i> öğesiyle kullanılır).
+    </li>
+    <li><b><<b>output</b>></b>: Bir hesaplama veya betik sonucunu görüntüler</li>
+    <li><b><<b>ruby</b>></b><b>rt</b><b>rp</b>: Ruby açıklamalarını belirtir (Çince veya Japonca gibi diller için kullanılır).
+    </li>
+    <li><b><<b>s</b>></b>: Artık geçerli olmayan metni belirtir (üstü çizili).
+    </li>
+    <li><b><<b>kbd</b>></b>: Kullanıcı girişini belirtir (genellikle klavye kısayolları için kullanılır).
+    </li>
+    <li><b><<b>samp</b>></b>: Örnek çıktıyı belirtir (genellikle kod veya sistem yanıtları için).
+    </li>
+    <li><b><<b>var</b>></b>: Matematiksel değişkeni veya bir programlama bağlamında bir değeri belirtir.
+    </li>
+    <li><b><<b>wbr</b>></b>: Metni kırmak için önerilen bir yer belirler (uzun kelimelerde veya URL'lerde kullanışlıdır).
+    </li>
+</ul>
+
+<ul class="paragraf-ana">
+    <h2>HTML Özel Yetenekler</h2>
+    <p>Bazı HTML etiketleri çok daha eski ve modern projelerde pek kullanılmaz. Örneğin:</p>
+    <li>Frames (çerçeveler) <b>< frame ></b> <b>< frameset ></b> <b>< noframes ></b> etiketleri, çerçeve tabanlı sayfalar oluşturmak için kullanılırdı, 
+    ancak bunlar HTML5'te artık önerilmemektedir.</li>
+    <li>Applet <b><<b>applet</b>></b> Java uygulamalarını gömmek için kullanılıyordu, ancak artık kullanımdan kalktı.</li>
 </ul>
     
     
