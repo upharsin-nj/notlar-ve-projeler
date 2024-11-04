@@ -66,6 +66,28 @@
                     <li><b>position</b> Elemanın konumlandırma yöntemini ayarlar. <i>position: absolute;</i></li>
                 <li><b>top,</b><b>right,</b><b>bottom,</b><b>left,</b> Konumlandırılmıi elemanların konumunu ayarlar. <i>top: 20px;</i></li>
             <li><b>float</b> Elemanların sağa veya sola hizalandırılmasını sağlar. <i>float: left;</i></li>
+        <li><b>clear</b> Yüzen elemanların etkisini temizler. <i>clear: both;</i></li>
+</ul>
+
+<ul class="paragraf-ana">
+    <h2>Esnek Kutu (Flexbox) Nitelikleri</h2>
+        <li><b>display: flex;</b> Flexbox düzenini etkinleştirir. Elemanlar esnek kutu olur.</li>
+            <li><b>flex-direction</b> Elemanların yönünü belirler. <i title="elemanları dikey yapar.">flex-direction: column;</i></li>
+                <li><b>flex-wrap</b> Elemanların sarılmasını kontrol eder. <i title="elemanları birden fazla satıra sarar">flex-wrap: wrap;</i></li>
+            <li><b>justify-content</b> Ana eksende elemanların hizalanmasını ayarlar. 
+            <i title="elemanların arasında boşluk bırakarak hizalar">justify-content: space-between;</i></li>
+        <li><b>aling-items</b> Çapraz eksende elemanları hizalar. 
+        <i title="elemanları çapraz eksende ortalar">align-items: center;</i></li>
+    <li><b>align-self</b> Tek bir elemanın hizalanamsını sağlar. <i title="elemanı alt kenara hizalar">align-self: flex-end;</i></li>              
+</ul>
+
+<ul class="paragraf-ana">
+    <h2>Grid Yerleşim Nitelikleri</h2>
+    <li><b>display: grid;</b> Grid düzenini etkinleştirir. Elemanları ızgara düzenine sokar. Bildiğim kadarıyla fazla kullanılmıyor.</li>
+        <li><b>grid-template-columns</b> Sütunların yapısını belirler. <i title="ilk sütun 1 ikinci sütun 2 birim genişliğinde olur">grid-template-columns: 1fr 2fr;</i></li>
+            <li><b>grid-template-rows</b> Satırların yapısını belirler. <i title="ilk satır 100 piksel ikinci satır otomatik boyutta olur">grid-template-rows: 100px auto;</i></li>
+        <li><b>grid-gap</b> Satırlar ve sütunlar arasındaki boşluğu ayarlar. <i title="elemanlar arasında 10px boşluk bırakır">grid-gap: 10px;</i></li>
+    <li><b>grid-area</b> Elemanın grid alanını tanımlar. <i title="elemanı 'header' olarak tanımlar ve grid düzeninde kullanır">grid-area: header;</i></li>
 </ul>
 
     
