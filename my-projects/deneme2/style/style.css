@@ -62,11 +62,14 @@ i {
     color: white;
     background-color: rgba(66, 66, 66, 0.429);
     padding: 1%;
+    border-radius: 10px;
 }
 
 i:hover {
     color: blueviolet;
     background-color: white;
+    border-radius: 50px;
+    text-shadow: 3px 3px 5px black;
 }
 
 .abo {
@@ -110,10 +113,13 @@ b {
     transition: 300ms;
     background-color: grey;
     padding: 0.5%;
+    border-radius: 10px;
 }
 
 b:hover {
     background-color: blueviolet;
+    border-radius: 50px;
+    text-shadow: 5px 5px 8px black;
 }
 
 strong {
